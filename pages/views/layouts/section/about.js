@@ -38,7 +38,7 @@ export default function About() {
         <div className="container py-16 mx-auto">
           <h2 className="text-h2">About Me</h2>
           <p className="mb-5 text-p-about-me">
-            I'm not good person. but not too worst like you thought
+            I&apos;m not good person. but not too worst like you thought
           </p>
           <div className="flex flex-row items-center">
             <div className="flex flex-col gap-4 border-l-2 sm:flex-1">

@@ -15,7 +15,7 @@ export default function Home() {
               <h1 className="text-h1 font-inter">Dedi Fardiyanto</h1>
               <p className="mb-5 font-mono text-p">Programmer & IT Enthusiast</p>
               <p className="mb-10 text-p-sub">
-                Don't Judge Book By It's Cover.{" "}
+                Don&apos;t Judge Book By It's Cover.{" "}
                 <span className="font-bold tracking-widest">Never!</span>
               </p>
               <Button label="Contact Me" url="#about" css="bg-red-500" />
