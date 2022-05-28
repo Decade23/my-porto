@@ -1,16 +1,48 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .animation-delay-2s {
+    animation-delay: 2s;
+  }
+  .animation-delay-4s {
+    animation-delay: 4s;
+  }
+}
+.text-h2 {
+  @apply text-2xl md:text-2xl lg:text-3xl font-semibold text-fuchsia-600;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+.text-h3 {
+  @apply text-2xl md:text-xl lg:text-3xl font-semibold text-fuchsia-600;
 }
 
-* {
-  box-sizing: border-box;
+.text-h1 {
+  @apply text-4xl md:text-4xl lg:text-5xl font-bold text-transparent bg-gradient-to-l from-indigo-400 via-pink-500 inline to-teal-600 bg-clip-text;
+}
+
+.text-p {
+  @apply text-base md:text-sm lg:text-xl font-semibold text-slate-600 opacity-95;
+}
+
+.text-p-about-me {
+  @apply text-xs sm:text-sm font-semibold text-slate-600 opacity-95;
+}
+
+.text-p-sub {
+  @apply text-sm md:text-base font-semibold text-slate-500 opacity-80;
+}
+
+.text-a-button {
+  @apply px-4 py-2 text-sm bg-opacity-70 text-slate-600 focus:ring focus:ring-fuchsia-500 hover:text-slate-900 hover:bg-opacity-100 cursor-pointer border-2 hover:border-fuchsia-400 hover:text-lime-600 border-fuchsia-200 bg-fuchsia-100  rounded-lg;
+}
+
+.about-text-h {
+  @apply text-sm font-semibold lg:text-lg hover:text-main;
+}
+
+.about-text-p {
+  @apply text-xs sm:text-sm lg:text-base;
 }
