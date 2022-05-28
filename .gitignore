@@ -33,4 +33,4 @@ yarn-error.log*
 
 package-lock.json
 .vscode
-.yarn.lock
+yarn.lock
