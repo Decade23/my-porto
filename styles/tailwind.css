@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  @import "./style.css";
+
+  .animation-delay-2s {
+    animation-delay: 2s;
+  }
+  .animation-delay-4s {
+    animation-delay: 4s;
+  }
+}

@@ -1,5 +1,5 @@
 export default function Button({
-    label, url, css = 'bg-blue-500'
+    label, url, css
 }) {
   return (
     <a href={`${url || ''}`} className={`text-a-button  ${css}`}>
