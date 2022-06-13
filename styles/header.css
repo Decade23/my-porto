@@ -2,9 +2,6 @@
   @apply  flex justify-between p-10 border-b border-slate-200 fixed z-50 container ml-7;
 }
 
-.header logo {
-}
-
 .header ul {
     @apply flex gap-4 cursor-pointer;
 }
