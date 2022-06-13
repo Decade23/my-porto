@@ -1,0 +1,30 @@
+.porto {
+  @apply min-h-screen bg-gradient-to-tr from-sky-300 via-fuchsia-50 to-slate-100;
+}
+.card-group {
+    @apply flex flex-col flex-wrap items-center justify-center gap-6 sm:justify-evenly sm:flex-row;
+}
+
+.card {
+  @apply relative flex flex-col w-60 h-56 font-sans text-center border justify-evenly mt-14 shadow-xl shadow-blue-300 backdrop-blur-sm;
+}
+
+.card .img {
+  @apply absolute top-0 left-0 translate-x-1/2 -translate-y-1/2 shadow-sm shadow-black w-28 h-28;
+}
+
+.card .details {
+    @apply mt-10;
+}
+
+.card .details h2 {
+    @apply font-mono;
+}
+
+.card .details h3 {
+    @apply font-sans font-semibold;
+}
+
+.card .details h5 {
+    @apply font-sans font-normal;
+}

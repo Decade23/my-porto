@@ -1,18 +1,17 @@
 import Image from "next/image";
 import Button from "../../../../components/button";
-
 export default function Home() {
   return (
     <>
       <section id="home">
-        <div className="container py-16 mx-auto">
+        <div className="container relative min-h-screen py-16 mx-auto">
           <div className="flex flex-col items-center justify-center lg:flex-row">
             <div className="w-full mb-12 lg:w-1/2">
-              <h2 className="text-h2 animate-blur-effect">
-                Hi 🤗, me...
-              </h2>
+              <h2 className="text-h2 animate-blur-effect">Hi 🤗, me...</h2>
               <h1 className="text-h1 font-inter">Dedi Fardiyanto</h1>
-              <p className="mb-5 font-mono text-p">Programmer & IT Enthusiast</p>
+              <p className="mb-5 font-mono text-p">
+                Programmer & IT Enthusiast
+              </p>
               <p className="mb-10 text-p-sub">
                 Don&apos;t Judge Book By It&apos;s Cover.{" "}
                 <span className="font-bold tracking-widest">Never!</span>
@@ -24,7 +23,7 @@ export default function Home() {
                 <Image
                   src="/assets/images/dedi.png"
                   alt="Dedi Fardiyanto"
-                  className="object-contain w-96 h-96"
+                  className="object-contain"
                   height="384px"
                   width="384px"
                 />
